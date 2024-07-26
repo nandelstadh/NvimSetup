@@ -49,5 +49,11 @@ return {
 			end
 			return tostring(os.time()) .. "-" .. suffix
 		end,
+
+		---@param url string
+		follow_url_func = function(url)
+			-- Open the URL in the default web browser.
+			vim.fn.jobstart({ "open", url }) -- Mac OS
+		end,
 	},
 }
