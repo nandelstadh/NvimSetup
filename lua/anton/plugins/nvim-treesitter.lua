@@ -29,6 +29,7 @@ return {
 					"cpp",
 					"gitignore",
 					"python",
+					"vimdoc",
 				},
 				incremental_selection = {
 					enable = true,
