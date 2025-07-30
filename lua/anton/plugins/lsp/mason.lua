@@ -36,6 +36,7 @@ return {
 				"clang-format", -- c++ formatter
 				"codelldb", -- c++ debugger
 				"lua-language-server",
+				"haskell-language-server",
 			},
 		})
 	end,
