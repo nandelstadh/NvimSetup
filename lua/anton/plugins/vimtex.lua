@@ -1,3 +1,4 @@
+vim.g.vimtex_syntax_conceal_disable = 1
 return {
 	"lervag/vimtex",
 	lazy = false, -- we don't want to lazy load VimTeX

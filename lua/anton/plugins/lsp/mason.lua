@@ -37,6 +37,7 @@ return {
 				"codelldb", -- c++ debugger
 				"lua-language-server",
 				"haskell-language-server",
+				"clangd", -- c/c++ lsp
 			},
 		})
 	end,
